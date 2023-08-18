@@ -1,6 +1,6 @@
-# Java Islands Kelurahan From Wikipedia
+# Indonesia Kelurahan Names From Wikipedia
 
-This repository contains a web scraper script that can be used to extract the names of all sub-districts (kelurahan) in the Java islands from Wikipedia. The script utilizes Python and the BeautifulSoup library to scrape the data from the Wikipedia pages. The get_kelurahan_data(url, city_name) function is the core of the web scraper. It fetches the HTML content from a specified Wikipedia URL, searches for the table containing sub-district names, and identifies the column with the sub-district names using header text variations like 'Daftar Desa', 'Daftar Desa/Kelurahan', or 'Daftar Kelurahan'. The function then extracts the sub-district names, performs data cleaning, and organizes the data into a Pandas DataFrame.
+This repository contains a web scraper script that can be used to extract the names of all sub-districts (kelurahan) in various regions of Indonesia from Wikipedia. The script utilizes Python and the BeautifulSoup library to scrape the data from the Wikipedia pages. The get_kelurahan_data(url, city_name) function is the core of the web scraper. It fetches the HTML content from a specified Wikipedia URL, searches for the table containing sub-district names, and identifies the column with the sub-district names using header text variations like 'Daftar Desa', 'Daftar Desa/Kelurahan', or 'Daftar Kelurahan'. The function then extracts the sub-district names, performs data cleaning, and organizes the data into a Pandas DataFrame.
 
 ## Prerequisites
 
@@ -14,8 +14,8 @@ pip install beautifulsoup4
 
 ## How to Use
 1. Clone this repository to your local machine:
-git clone https://github.com/your-username/java-islands-subdistricts-scraper.git
-cd java-islands-subdistricts-scraper
+git clone https://github.com/your-username/Indonesia_Kelurahan_Names_From_Wikipedia.git
+cd Indonesia_Kelurahan_Names_From_Wikipedia
 
 or use GitHub Desktop
 
